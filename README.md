@@ -5,7 +5,7 @@ You can use the [editor on GitHub](https://github.com/jdraccon/GA-test-site-/edi
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 TEST link:
-GA tracking code test 1 (https://github.com/jdraccon/GA-test-site-/GA-tracking-code-test.html)
+GA tracking code test 1 (https://jdraccon.github.io/GA-test-site-/GA-tracking-code-test.html)
 
 ### Markdown
 
