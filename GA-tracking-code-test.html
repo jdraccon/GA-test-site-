@@ -17,7 +17,7 @@ ga('set', 'transport', 'beacon');
 <!-- End Google Analytics -->
   
  // beacon added.
- // Disable PV hit send command.
+ // enable PV hit send command.
   
 </head>
 
@@ -25,8 +25,14 @@ ga('set', 'transport', 'beacon');
 
 <body>
 
-<h1>Analytics.js “beacon” test</h1>
-<p>https://developers.google.com/analytics/devguides/collection/analyticsjs/sending-hits</p>
+<h1>Analytics.js session test</h1>
+<p>由于session的increment是与event是否“interactive”挂钩，所以验证的逻辑有两种：
+   1）clear Firefox中的cookie，看PV hit发送的的是，GA的 realtime report是否能够记录到RTsession
+   2）** 在页面上做event，然后在GATC中加event tracker
+  
+ 若测试1）能够记录到session，那么解释了为什么两次测试有差异的情况。
+  
+</p>
 
 </body>
 </html>
