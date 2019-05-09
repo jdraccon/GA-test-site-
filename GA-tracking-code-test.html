@@ -5,12 +5,14 @@
   
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134956392-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-888334"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-134956392-1');
+  gtag('config', 'DC-888334');
 </script>
   
 // Add GA tracking code on test page.
@@ -21,10 +23,26 @@
 
 <body>
 
-<h1>Test for filter setting</h1>
+<h1>Test for DC globle site tag</h1>
 <p>  
   test 1
 </p>
+  
+  <!--
+Event snippet for Now TV - 201904 Learning Pack - Landing Page - Hotline Button on http://nowtv.now.com/: Please do not remove.
+Place this snippet on pages with events you’re tracking. 
+Creation date: 05/08/2019
+-->
+<script>
+  gtag('event', 'conversion', {
+    'allow_custom_scripts': true,
+    'send_to': 'DC-888334/nowtv003/nowtv006+standard'
+  });
+</script>
+<noscript>
+<img src="https://ad.doubleclick.net/ddm/activity/src=888334;type=nowtv003;cat=nowtv006;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=1?" width="1" height="1" alt=""/>
+</noscript>
+<!-- End of event snippet: Please do not remove -->
 
 </body>
 </html>
